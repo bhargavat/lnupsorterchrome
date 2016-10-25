@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lineup Sorter</title>
+    <meta charset="utf-8">
+    <script type='text/javascript' src="js/popup.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="fantasy.css" type="text/css" rel="stylesheet">
+  </head>
+  <body class="window">
+    <nav class="navbar navbar-default">
+  <div class="navbar-header">
+  	    	<img src="img/icon-sm.png" id="logo" alt="Logo">
+    <a class="navbar-brand" style="color:white">
+    	Yahoo Fantasy Lineup Sorter
+    </a>
+    <button class="glyphicon glyphicon-question-sign" type="button" id="help">
+    </button>
+  </div>
+	</nav>
+
+  <div class="instr" style="display: none">
+    <p>1. Go to your lineup's page and copy link address from the "Start Active Players" button</p>
+    <p>2. Select how many days you want to sort</p>
+    <p>3. Paste the copied link address and click "Submit"</p>
+    <p>4. Verify for each day and make manual modifications before closing the tabs</p>
+  </div>
+<div id="hpage">
+    <input id="url" type="url" class="form-control" placeholder="URL">
+    <div class="form-group"><br>
+        <div class="selectContainer">
+            <select autofocus required class="form-control" 
+            name="dayselect" id="days">
+                <option value="2">2 Days</option>
+                <option value="3">3 Days</option>
+                <option value="4">4 Days</option>
+                <option value="5">5 Days</option>
+                <option value="6">6 Days</option>
+                <option value="7">7 Days</option>
+            </select>
+        </div>
+    </div>
+    <button id="submit">Submit</button>
+    <p id="err"></p>
+</div>
+<script type='text/javascript' src="js/jquery.min.js"></script>
+<script type='text/javascript' src="js/fantasy.js"></script>
+<script type='text/javascript' src="js/display.js"></script>
+  </body>
+</html>

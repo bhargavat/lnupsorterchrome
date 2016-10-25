@@ -1,0 +1,83 @@
+.window{
+	background: url('img/floor.png');
+	background-size: cover;
+}
+.title{
+	text-align: center;
+}
+.jumbotron{
+	margin: 3%;
+}
+.instr{
+	margin-left: 2%;
+	font-size: 13px;
+	font-weight: bold;
+}
+body{
+	min-width: 362px;
+}
+input[type="URL"]{
+	margin: auto;
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+	padding: 10px;
+	text-align: center;
+	border: 2px solid #676565;
+}
+#help{
+	background-color: #4B0082;
+	border: none;
+	color: white;
+	outline: none;
+}
+select[name="dayselect"]{
+	max-width: 95px;
+	min-width: 90px;
+	margin: auto;
+	text-align: center;
+	width: 60%;
+	border: 2px solid #676565;
+}
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 105%;
+    background-color: #4B0082;
+}
+.navbar-brand {
+	float:none;
+	color: white;
+	outline-color: white;
+	margin-left: 11%;
+}
+#logo {
+	position: fixed;
+	left: 10px;
+  top: 12px;
+}
+#err{
+    position: fixed;
+    left: 30px;
+    font-size: 13px;
+    bottom: 5px;
+    color: red;
+    font-weight: bold;
+}
+#submit{
+	padding: 7px;
+	border-radius: 5px;
+	border: none;
+	min-width: 60px;
+  margin: auto;
+	margin-bottom: 2%;
+  display: block;
+  border: 2px solid #4B0082;
+  background-color: white;
+  color: #4B0082;
+}
+#submit:hover{
+	background-color: #4B0082;
+	color: white;
+}
