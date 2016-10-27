@@ -4,7 +4,7 @@
   "name": "LineupSorter",
   "short_name": "lnupsorter",
   "description": "Allows you to quickly sort your Yahoo Fantasy Basketball roster for the week.",
-  "version": "1.2",
+  "version": "1.2.1",
 
   "icons": {
     "16": "img/icon16.png",
